@@ -8,7 +8,7 @@ class DiscountPrinter
     {
         string seasonal = p.IsSeasonalFlight ? "Lot w sezonie" : "Lot poza sezonem";
         string domestic = p.IsDomesticFlight ? "Lot krajowy" : "Lot międzynarodowy";
-        string regular = p.IsRegularCustomer ? "Tak" : "Nie";
+        string regular = p.IsRegularCustomer ? "Tak" : "Nie lub osoba niepełnoletnia";
         Console.WriteLine(
             $"""
 
